@@ -1,0 +1,33 @@
+<!-- Child Selector -->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Child Selector</title> 
+		<style>
+			div > p {
+					background-color: slategrey;
+			}
+			section p{
+				background-color: wheat;
+			}
+			p{
+				background-color: cornflowerblue;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Child Selector</h1>
+		<p>This is one combinator</p>
+		<div> 
+			<p>This is Paragraph1-child1</p>
+			<p>This is Paragraph2-child2</p>
+			<section>
+				<p>This is Paragraph3 in section</p>
+			</section>
+			<p>This is Paragraph4-child3</p>
+		</div>
+		<p>This is Paragraph5</p>
+	</body>
+</html>
